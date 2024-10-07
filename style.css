@@ -17,5 +17,14 @@ justify-content: center;}
        .categoria-videos{
               display: flex;
               overflow-x: auto;
-              gap:15px;
-       }
+              gap:15px;}
+              .categoria{
+                     padding-left: 20px;
+                     padding-right: 20px;
+                     margin-top: 50px;}
+                     .categoria-videos img{
+                            opacity:0.5;
+                            height:200px;}
+                            .categoria-videos img:hover{ opacity: 1.0;
+                            border:3px solid rgb(0, 13, 255);}
+                            .categoria h2{color:rgb(0, 13, 255)}
